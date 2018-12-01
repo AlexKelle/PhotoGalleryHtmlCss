@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="./css/bodyStyle.css" rel="stylesheet" type="text/css" />
+  <link href="./css/navigatorStyle.css" rel="stylesheet" type="text/css" />
+  <link href="./css/galleryStyle.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="./images/logo.png" type="image/png">
+  <title>Photo gallery</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+          
+      <!--Navigator-->
+      <nav id="navigator" class="top-menu">
+        <input type="checkbox" id="checkbox3" class="main-menu__checkbox main-menu__item_invisible" />
+        <label for="checkbox3">
+          <ul class="main-menu">
+            <img src="./images/logo.png" alt="Logo" class="logo">
+            <li class="main-menu__item"><a href="#home" class="menu-main__link menu-main__link_active">Home</a></li>
+            <li class="main-menu__item"> <a href="#aboutUs" class="menu-main__link">About Us</a></li>
+            <li class="main-menu__item"><a href="#team" class="menu-main__link">Team</a></li>
+            <li class="main-menu__item"><a href="#contactUs" class="menu-main__link">Contact Us</a></li>
+            <li class="main-menu__item"><a href="#services" class="menu-main__link">Services</a></li>
+          </ul>
+          <span class="toggle">☰</span>
+        </label>
+      </nav>
+    </header>
+
+    <div>
+      <!--Dнnamic part of the grid-->
+      <input type="checkbox" id="pic-1" class="item_invisible" />
+      <label for="pic-1" class="lightbox lable_cursor"><img src="./images/wedding1H.jpg" alt="pregnancy" class="image_checked" /></label>
+      <input type="checkbox" id="pic-2" class="item_invisible" />
+      <label for="pic-2" class="lightbox lable_cursor"><img src="./images/family1.jpg" alt="family" class="image_checked" /></label>
+      <input type="checkbox" id="pic-3" class="item_invisible" />
+      <label for="pic-3" class="lightbox lable_cursor"><img src="./images/personal6.jpg" alt="children" class="image_checked" /></label>
+      <input type="checkbox" id="pic-4" class="item_invisible" />
+      <label for="pic-4" class="lightbox lable_cursor"><img src="./images/decorGrayWindow.jpg" alt="gray window" class="image_checked" /></label>
+      <input type="checkbox" id="pic-5" class="item_invisible" />
+      <label for="pic-5" class="lightbox lable_cursor"><img src="../images/wedding3H.jpg" alt="classic room" class="image_checked" /></label>
+      <input type="checkbox" id="pic-6" class="item_invisible" />
+      <label for="pic-6" class="lightbox lable_cursor"><img src="./images/litleCarLoft.jpg" alt="red litle car" class="image_checked" /></label>
+      <input type="checkbox" id="pic-7" class="item_invisible" />
+      <label for="pic-7" class="lightbox lable_cursor"><img src="./images/children1.jpg" alt="indian girl" class="image_checked" /></label>
+      <input type="checkbox" id="pic-8" class="item_invisible" />
+      <label for="pic-8" class="lightbox lable_cursor"><img src="/images/pregnancy4.jpg" alt="wedding" class="image_checked" /></label>
+      <input type="checkbox" id="pic-9" class="item_invisible" />
+      <label for="pic-9" class="lightbox lable_cursor"><img src="./images/wedding2H.jpg" alt="happy bridegroom" class="image_checked" /></label>
+      <!-- Photo Grid -->
+      <div class="row">
+        <div class="column">
+          <label for="pic-1"><img src="./images/wedding1H.jpg" class="column__item"></label>
+          <label for="pic-2"><img src="./images/family1.jpg" class="column__item"></label>
+          <label for="pic-3"><img src="./images/personal6.jpg" class="column__item"></label>
+        </div>
+        <div class="column">
+          <label for="pic-4"><img src="./images/decorGrayWindow.jpg" class="column__item"></label>
+          <label for="pic-5"><img src="./images/wedding3H.jpg" class="column__item"></label>
+          <label for="pic-6"><img src="./images/litleCarLoft.jpg" class="column__item"></label>
+        </div>
+        <div class="column">
+          <label for="pic-7"><img src="./images/children1.jpg" class="column__item"></label>
+          <label for="pic-8"> <img src="./images/pregnancy4.jpg" class="column__item"></label>
+          <label for="pic-9"><img src="./images/wedding2H.jpg" class="column__item"></label>
+        </div>
+      </div>
+    </div>
+    <div class="page_theme_black">
+
+      <div class="row" >
+        <div class="column">
+          <p style="color:azure">Address Line 1
+            Address Line 2
+            Town/City
+            Postcode/Zip
+            Tel: xxxx xxxx xxxxxx
+            Email: contact@domain.com</p>
+        </div>
+        <div class="column">
+          <p style="color:azure">Vestassapede et donec ut est liberos sus et eget sed eget.
+            Quisqueta habitur augue magnisl magna phasellus sagittitor ant curabiturpis.</p>
+        </div>
+        <div class="column">
+          <p style="color:azure">Vestassapede et donec ut est liberos sus et eget sed eget.
+            Quisqueta habitur augue magnisl magna phasellus sagittitor ant curabiturpis.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
