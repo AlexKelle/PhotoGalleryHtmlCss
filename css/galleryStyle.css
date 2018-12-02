@@ -21,7 +21,7 @@
 }
 
 .lightbox, .grid {
-  width: 100%;
+  width: 95%;
   position: fixed;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@
 .column {
   flex: 25%;
   max-width: 33%;
-  padding: 0 4px;
+  padding: 7px;
 }
 
 .column__item {
@@ -95,10 +95,14 @@
 
 @media (max-width: 600px) {
   .column {
+    flex: 80%;
+    max-width: 80%;
+  }
+  .column_text {
     flex: 50%;
     max-width: 50%;
   }
   .row {
-    padding: .5% 10% .5% 10%;
+    padding: .5% 5% .5% 10%;
   }
 }

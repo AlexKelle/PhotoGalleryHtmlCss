@@ -3,10 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .wrapper {
   position: relative;
 }
 
+.block_wrapper {
+
+  margin: 5px 10% 0 15%;
+}
+
+.horizontal-line {
+  position: relative;
+  border-top: 5px solid #40aed7;
+}
+
+.horizontal-line_bottom {
+  position: relative;
+  border-bottom: 1px solid #cecece;
+}
+
 .page_theme_black {
   background-color: #1d1d1d;
+}
+
+@media screen and (max-width: 630px) {
+  .horizontal-line_bottom, .horizontal-line {
+    margin: 5px 0 0 0;
+  }
 }
