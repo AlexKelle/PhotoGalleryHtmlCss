@@ -2,7 +2,7 @@
 
  
 .top-menu{
-    margin: 50px auto;
+    margin: 10px auto;
     width: 100%;
     max-width: 100%;
  }
@@ -13,7 +13,7 @@
  
  .main-menu {
     padding: 0;
-    margin: 0;
+    margin: 0 10%;
     height: 50px;
     max-width: 100%;
     display: flex;
@@ -49,27 +49,13 @@
     color: #40aed7;
  }
  
- .logo {
-    width: 100px;
-    height: 50px;
-    justify-content: flex-start;
- }
+
  
  @media screen and (max-width: 830px) {
-    .logo {
-       width: 60px;
-       height: 60px;
-    }
  }
  @media screen and (max-width: 630px) {
     .top-menu{
-       margin: 70px auto;
-    }
- 
-    .logo {
-       width: 60px;
-       height: 60px;
-       margin-left: 43%
+       margin: 10px auto;
     }
  
     .toggle {
