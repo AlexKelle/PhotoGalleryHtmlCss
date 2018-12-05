@@ -53,8 +53,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: .5% 10% .5% 10%;
-  margin-left: 10%;
+  justify-content: space-around;
   overflow: auto;
 }
 
@@ -101,8 +100,5 @@
   .column_text {
     flex: 50%;
     max-width: 50%;
-  }
-  .row {
-    padding: .5% 5% .5% 10%;
   }
 }

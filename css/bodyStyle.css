@@ -9,7 +9,6 @@
 }
 
 .block_wrapper {
-
   margin: 5px 10% 0 15%;
 }
 
@@ -25,6 +24,12 @@
 
 .page_theme_black {
   background-color: #1d1d1d;
+}
+
+@media screen and (max-width: 830px) {
+  .block_wrapper{
+    margin: 5px 10% 0 10%;
+  }
 }
 
 @media screen and (max-width: 630px) {

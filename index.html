@@ -8,6 +8,8 @@
   <link href="./css/galleryStyle.css" rel="stylesheet" type="text/css" />
   <link href="./css/searchStyle.css" rel="stylesheet" type="text/css" />
   <link href="./css/logoStyle.css" rel="stylesheet" type="text/css" />
+  <link href="./css/buttonStyle.css" rel="stylesheet" type="text/css" />
+  <link href="./css/titleBlockStyle.css" rel="stylesheet" type="text/css" />
   <link rel="icon" href="./images/logo.png" type="image/png">
   <title>Photo gallery</title>
 </head>
@@ -25,6 +27,7 @@
           </button>
         </form>
       </div>
+      <!--logo-->
       <div class="logo_wrapper">
         <img src="./images/logo.png" alt="Logo" class="logo">
       </div>
@@ -44,10 +47,32 @@
       </nav>
       <div class="horizontal-line_bottom"></div>
     </header>
-    <!--TODO creat style file for this block-->
+    <!--Title block-->
+      <div class="title-wrapper">
+        <div class="title__item title__item_big">
+          <img src="./images/vintageNewYear.jpg" class="title__item-img">
+        </div>
+        <div class="title__item title__item_small">
+          <h2 class="text text_lage" >We are glad to see you in our studio.</h2>
+          <p class="text">Studio with large windows, natural and studio
+            lighting.
+            Here you are waited by friendly and polite administrators,
+            beautiful interiors and decorations in three halls.</p>
+          <button type="submit" class="button">Read more »</button>
+        </div>
+      </div>
 
+    <div class="block_wrapper">
+      <h2 class="text text_lage" >We are glad to see you in our studio.</h2>
+      <p class="text">Studio with large windows, natural and studio
+        lighting.
+        Here you are waited by friendly and polite administrators,
+        beautiful interiors and decorations in three halls.</p>
+    </div>
+    </div>
+
+    <!--Dнnamic part of the grid-->
     <div id="imageGallery">
-      <!--Dнnamic part of the grid-->
       <input type="checkbox" id="pic-1" class="item_invisible" />
       <label for="pic-1" class="lightbox lable_cursor"><img src="./images/wedding1H.jpg" alt="pregnancy" class="image_checked" /></label>
       <input type="checkbox" id="pic-2" class="item_invisible" />
@@ -67,7 +92,7 @@
       <input type="checkbox" id="pic-9" class="item_invisible" />
       <label for="pic-9" class="lightbox lable_cursor"><img src="./images/wedding2H.jpg" alt="happy bridegroom" class="image_checked" /></label>
       <!-- Photo Grid -->
-      <div class="row">
+      <div class="row block_wrapper">
         <div class="column">
           <label for="pic-1"><img src="./images/wedding1H.jpg" class="column__item"></label>
           <label for="pic-2"><img src="./images/family1.jpg" class="column__item"></label>

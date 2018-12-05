@@ -1,0 +1,31 @@
+.button {
+    width: 180px;
+    height: 40px;
+    border: 1px solid #40aed7;
+    background: #40aed7;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button:hover {
+    background: #cecece;
+}
+
+@media (max-width: 1024px) {
+    .button {
+        margin-left: 35%
+    }
+}
+
+@media (max-width: 630px) {
+    .button {
+        margin-left: 20%
+    }
+}

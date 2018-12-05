@@ -69,6 +69,7 @@
      font-size: 18px;
      color: #666666;
      background: #40aed7;
+     border-radius: 5px;
      transition: all .1s linear;
    }
  
